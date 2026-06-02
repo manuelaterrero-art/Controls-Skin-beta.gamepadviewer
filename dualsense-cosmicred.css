@@ -1,0 +1,116 @@
+/* ==========================================
+   DualSense Cobalt Blue - Test Version
+   ========================================== */
+
+/* Efecto general */
+* {
+    transition: all 0.2s ease !important;
+}
+
+/* Fondo */
+body {
+    background: transparent !important;
+}
+
+/* Contenedor principal */
+.controller {
+    filter:
+        hue-rotate(180deg)
+        saturate(2)
+        brightness(1.1)
+        drop-shadow(0 0 15px rgba(0,102,255,.8)) !important;
+}
+
+/* Todas las imágenes SVG */
+svg {
+    filter:
+        hue-rotate(180deg)
+        saturate(2)
+        brightness(1.1) !important;
+}
+
+/* Botones */
+.button {
+    filter:
+        hue-rotate(180deg)
+        saturate(2)
+        brightness(1.1) !important;
+}
+
+.button.pressed {
+    filter:
+        hue-rotate(180deg)
+        saturate(2.5)
+        brightness(1.6)
+        drop-shadow(0 0 10px #4da3ff) !important;
+}
+
+/* Joysticks */
+.stick,
+.analog,
+.thumbstick {
+    filter:
+        hue-rotate(180deg)
+        saturate(2)
+        brightness(1.1) !important;
+}
+
+.stick.pressed,
+.analog.pressed,
+.thumbstick.pressed {
+    filter:
+        hue-rotate(180deg)
+        saturate(3)
+        brightness(1.5)
+        drop-shadow(0 0 8px #4da3ff) !important;
+}
+
+/* Gatillos */
+.trigger,
+.bumper,
+.shoulder {
+    filter:
+        hue-rotate(180deg)
+        saturate(2)
+        brightness(1.1) !important;
+}
+
+/* Touchpad */
+.touchpad {
+    background: #0b2f8f !important;
+    border: 2px solid #4da3ff !important;
+    box-shadow: 0 0 15px rgba(77,163,255,.7) !important;
+}
+
+/* D-Pad */
+.dpad {
+    filter:
+        hue-rotate(180deg)
+        saturate(2)
+        brightness(1.1) !important;
+}
+
+/* Botón PS */
+.meta,
+.ps-button {
+    filter:
+        hue-rotate(180deg)
+        saturate(2)
+        brightness(1.2) !important;
+}
+
+.meta.pressed,
+.ps-button.pressed {
+    filter:
+        hue-rotate(180deg)
+        saturate(3)
+        brightness(1.8)
+        drop-shadow(0 0 15px #4da3ff) !important;
+}
+
+/* LEDs */
+.lightbar,
+.led {
+    background: #0066ff !important;
+    box-shadow: 0 0 20px #4da3ff !important;
+}
