@@ -1,0 +1,48 @@
+/* DualSense Cobalt Blue */
+
+.controller {
+    filter: drop-shadow(0 0 12px rgba(0,90,255,.45));
+}
+
+/* Carcasa principal */
+.controller .base,
+.controller .shell,
+.controller .body {
+    filter: hue-rotate(180deg) saturate(1.8) brightness(1.05);
+}
+
+/* Touchpad */
+.touchpad {
+    background: #0b2f8f !important;
+    border: 2px solid #4da3ff !important;
+}
+
+/* Sticks */
+.stick {
+    filter: hue-rotate(180deg) saturate(2.2);
+}
+
+.stick.pressed {
+    filter: hue-rotate(180deg) saturate(2.5) brightness(1.3);
+}
+
+/* Gatillos */
+.trigger,
+.bumper {
+    filter: hue-rotate(180deg) saturate(1.8);
+}
+
+/* Efecto al presionar botones */
+.button.pressed {
+    filter: brightness(1.5) drop-shadow(0 0 8px #4da3ff);
+}
+
+/* Botón PS */
+.meta.pressed {
+    filter: drop-shadow(0 0 12px #4da3ff);
+}
+
+/* Fondo transparente */
+body {
+    background: transparent !important;
+}
